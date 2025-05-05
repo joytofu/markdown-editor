@@ -1,20 +1,20 @@
 <div class="sidebar-wrapper">
   <div class="sidebar" ng-controller="Documents as document">
-    <h2 class="sidebar-branding">
-      <%- include icons/branding %>
-    </h2>
+    <h4 class="sidebar-branding" style="color: white;">
+      Netkit Top
+    </h4>
 
     <nav class="nav nav-sidebar">
       <ul class="menu menu-sidebar">
 
-        <li class="menu-item menu-item--link-unlink in-sidebar">
+        <!-- <li class="menu-item menu-item--link-unlink in-sidebar">
           <a class="menu-link" ng-click="document.status.linkUnlink = !document.status.linkUnlink">
           <span>Services</span> <span class="caret"></span></a>
 
           <ul class="sidebar-list" collapse="document.status.linkUnlink">
             <%- include dropdowns/link_unlink %>
           </ul>
-        </li>
+        </li> -->
 
         <li class="menu-item menu-item--save-to in-sidebar">
           <a class="menu-link" ng-click="document.status.save = !document.status.save">

@@ -3,7 +3,7 @@
   <menu-toggle></menu-toggle>
 
   <h1 class="navbar-brand">
-    <a class="brand" href="/"><%- include icons/branding %></a>
+    <a class="brand" href="/">Marvelous Markdown Editor</a>
   </h1>
 
   <div class="ad-container">
@@ -21,13 +21,7 @@
         <% var exportTarget = '_top'; %>
         <%- include dropdowns/export_as %>
       </li>
-      <li class="menu-item menu-item--save-to has-dropdown" dropdown>
-        <a class="dropdown-toggle" dropdown-toggle>Save to <span class="caret"></span></a>
-
-        <ul class="dropdown dropdown-menu" role="menu">
-          <%- include dropdowns/save_to %>
-        </ul>
-      </li>
+      
       <li class="menu-item menu-item--import-from has-dropdown" dropdown>
         <a class="dropdown-toggle" dropdown-toggle>Import from <span class="caret"></span></a>
 

@@ -98,8 +98,8 @@ app.use('/dist', express.static(path.join(__dirname, 'public/dist')))
 app.use('/theme-github.js', express.static(path.join(__dirname, 'node_modules/brace/theme/github.js')))
 
 // Setup local variables to be available in the views.
-app.locals.title = config.title || 'Dillinger.'
-app.locals.description = config.description || 'Dillinger, the last Markdown Editor, ever.'
+app.locals.title = config.title || 'Marvelous Markdown Editor'
+app.locals.description = config.description || 'The most powerful markdown editor, ever.'
 app.locals.dillinger_version = require('./package.json').version
 
 if (config.googleWebmasterMeta) {

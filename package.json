@@ -1,21 +1,14 @@
 {
-  "name": "dillinger",
-  "description": "Dillinger, the last Markdown editor you'll ever need, by yours truly, Joe McCann.",
+  "name": "Netkit",
+  "description": "The Most Powerful Markdown editor you'll ever need, by yours truly, Joe McCann.",
   "version": "3.39.1",
   "author": {
     "name": "Joe McCann",
-    "email": "joe@subprint.com"
+    "email": "support@netkit.top"
   },
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Joe McCann",
-      "email": "joe@subprint.com"
-    },
-    {
-      "name": "Martin Broder",
-      "email": "hello@martinbroder.com"
-    }
+    
   ],
   "scripts": {
     "start": "node app.js",
@@ -27,11 +20,12 @@
     "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
   },
   "resolutions": {
-    "graceful-fs": "^4.2.11"
+    "graceful-fs": "4.2.11"
   },
   "keywords": [
-    "dillinger",
     "markdown",
+    "md",
+    "markdown editor",
     "editor",
     "ide",
     "text",

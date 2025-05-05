@@ -1,5 +1,5 @@
 [Unit]
-Description=The last Markdown editor, ever. http://dillinger.io
+Description=The Most Powerful Markdown editor, ever. http://dillinger.io
 After=docker.service
 Requires=docker.service
 

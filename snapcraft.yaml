@@ -1,8 +1,8 @@
-name: dillinger
+name: Marvelous Markdown Editor
 version: master
-summary: The last Markdown editor, ever
+summary: The Most Powerful Markdown editor, ever
 description: |
-  Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered
+  Cloud-enabled, mobile-ready, offline-storage, AngularJS powered
   HTML5 Markdown editor.
 
 confinement: strict
