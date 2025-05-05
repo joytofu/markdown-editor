@@ -5,7 +5,7 @@ const defaultConfig = {
   title: 'Marvelous Markdown Editor - the Most Powerful Markdown Editor ever.',
   description: `Online cloud based HTML5 filled Markdown Editor. Convert HTML to Markdown. 100% FREE!`,
   googleWebmasterMeta: 'DAyGOgtsg8rJpq9VVktKzDkQ1UhXm1FYl8SD47hPkjA',
-  keywords: 'Markdown, Editor, ACE, Github, Open Source, Node.js',
+  keywords: 'Markdown, Editor, Markdown Editor, markdown editor online',
   author: 'Raymond Jaden',
   // Add default database configuration
   development: {
