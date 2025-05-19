@@ -2,10 +2,10 @@
 const rc = require('rc')
 
 const defaultConfig = {
-  title: 'Marvelous Markdown Editor - the Most Powerful Markdown Editor ever.',
-  description: `Online cloud based HTML5 filled Markdown Editor. Convert HTML to Markdown. 100% FREE!`,
+  title: 'TopMD - Edit, View & Convert Markdown Online (MD to PDF/HTML).',
+  description: `Your all-in-one online markdown viewer and editor. Convert markdown to pdf online or convert markdown to html with just a click. Try our markdown split view today!`,
   googleWebmasterMeta: 'DAyGOgtsg8rJpq9VVktKzDkQ1UhXm1FYl8SD47hPkjA',
-  keywords: 'Markdown, Editor, Markdown Editor, markdown editor online',
+  keywords: 'markdown to pdf, md to pdf, best markdown editor, convert markdown to html, online markdown viewer, markdown split view',
   author: 'Raymond Jaden',
   // Add default database configuration
   development: {

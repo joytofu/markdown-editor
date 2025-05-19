@@ -98,8 +98,8 @@ app.use('/dist', express.static(path.join(__dirname, 'public/dist')))
 app.use('/theme-github.js', express.static(path.join(__dirname, 'node_modules/brace/theme/github.js')))
 
 // Setup local variables to be available in the views.
-app.locals.title = config.title || 'Marvelous Markdown Editor'
-app.locals.description = config.description || 'The most powerful markdown editor, ever.'
+app.locals.title = config.title || 'Markdown to PDF & HTML Online | Free MD Editor & Viewer'
+app.locals.description = config.description || 'Edit, view, and convert markdown online easily. Our free online markdown editor features a split view, markdown to pdf conversion, and convert markdown to html. '
 app.locals.dillinger_version = require('./package.json').version
 
 if (config.googleWebmasterMeta) {
